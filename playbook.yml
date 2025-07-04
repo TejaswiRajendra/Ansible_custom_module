@@ -1,0 +1,13 @@
+---
+- name: Execute custom Tejaswi module via a role
+  hosts: localhost 
+  connection: local 
+  gather_facts: false 
+
+  
+  collections:
+    - tejaswi.custom_modules 
+
+  
+  roles:
+    - display_message 

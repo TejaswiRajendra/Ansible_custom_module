@@ -1,0 +1,13 @@
+---
+
+- name: Use Tejaswi's custom module to display a message
+  tejaswi.custom_modules.tejaswi_module:
+    name: "Tejaswi R" 
+  register: module_output 
+
+- name: Print the output from Tejaswi_Module
+  ansible.builtin.debug:
+    var: module_output.generated_message 
+
+
+
