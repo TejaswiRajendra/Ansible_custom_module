@@ -3,7 +3,7 @@ name: custom_modules
 version: 1.0.0
 readme: README.md
 authors:
-  - Tejaswi R <your_email@example.com>
+  - Tejaswi R 
 description: A collection for custom Ansible modules by Tejaswi.
 license_file: null
 tags:
